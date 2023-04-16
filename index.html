@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    <div class="menu-bar">
+    
+        <ul>
+            <li class=""><a href="home.html">Home</a></li>
+            <li class=""><a href="service.html">Services</a></li>
+             <li class=""><a href="home.html">About</a></li>
+             <li class="">Contact</a></li>
+          </ul>
+    </div>
+
+    <div class="container">
+        <form name="myform" method="post" action="#!" onsubmit="return validateForm()">
+            <div class="input">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" id="name" >
+    
+            </div>
+
+            <div class="input">
+                <label>Phone no.</label>
+                <input type="tel" placeholder="0123456789" id="phone">
+        
+            </div>
+
+            <div class="input">
+                <label>Email Id</label>
+                <input type="email" placeholder="Enter Your email" id="email">
+        
+            </div>
+
+            <div class="input">
+                <label>Your Messeges</label>
+                <textarea rows="5" placeholder="Enter your messeges" id="message"></textarea>
+                
+            </div>
+
+            <input type="submit" class="btn" value="Send" />
+        
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

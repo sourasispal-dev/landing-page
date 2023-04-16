@@ -1,0 +1,81 @@
+:root {
+    --cardWidth: 240px;
+    --cardHeight: 280px;
+    --cardMargin: 16px;
+  }
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-bar {
+  background-color: rgba(175, 247, 255, 0.701);
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  font-size: 16px;
+}
+
+.menu-bar ul li {
+  width: 60px;
+  padding: 6px;
+  margin: 8px;
+  color: rgb(252, 249, 249);
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: rgba(253, 253, 253, 0.799);
+}
+
+.menu-bar ul li:hover {
+  color: rgb(255, 251, 2);
+}
+.menu-bar ul li a:hover {
+  color: rgb(255, 251, 2);
+}
+.landing {
+  text-align: center;
+}
+.landing h1 {
+  color: aliceblue;
+  margin-top: 50px;
+  
+  padding: 34px;
+}
+
+body {
+  
+background-color: rgba(0, 0, 0, 0.856);
+}
+.cart {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.card {
+    width: var(--cardWidth);
+    height: var(--cardHeight);
+    margin: var(--cardMargin);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .card:hover{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 4px orangered;
+  }
+.card p{
+    font-size: 12px;
+    margin-top: 11px;
+    text-align: justify;
+    padding: 20px;
+    word-spacing: -2px;
+}
